@@ -19,11 +19,9 @@ let or: boolean = (5 === 5 || 2 === 2)
 
 "hello" !== "hello"
 
-let name: string
+let name: string = "Svetoslav"
 
 let age: number
-
-name = "Svetoslav"
 
 age = 30
 
