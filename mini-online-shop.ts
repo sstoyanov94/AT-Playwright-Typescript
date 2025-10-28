@@ -40,7 +40,13 @@ const tShirt: Product = {
     category: "clothes"
 }
 
-const products: Product[] = [apple, tShirt];
+const phone: Product = {
+    name: "Blackberry",
+    price: 350,
+    category: "electronics"
+}
+
+const products: Product[] = [apple, tShirt, phone];
 
 const customer: Customer = {
     name: "Georgi",
@@ -56,3 +62,11 @@ const customer: Customer = {
 //customer.cart[1].price
 //...
 //total = sum of all prices
+
+const secondCustomer: Customer = {
+    name: "Ivan",
+    email: "ivan@mail.bg",
+    cart: [tShirt, phone]
+}
+
+
